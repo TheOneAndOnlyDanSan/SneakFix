@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "sneakfix",
+  "version": "${version}",
+
+  "name": "Sneak Fix",
+  "description": "this mod fixes the double sneak problem that happens on some servers",
+  "authors": [
+    "TheOneAndOnlyDanSan"
+  ],
+  "contact": {
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "Public Domain",
+  "icon": "assets/SneakFix/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+    ]
+  },
+  "mixins": [
+    "mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  }
+}
